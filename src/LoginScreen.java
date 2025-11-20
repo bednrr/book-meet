@@ -109,7 +109,7 @@ public class LoginScreen extends JFrame {
             switch(role) {
                 case IT_ADMIN -> new ITAdminPanel();
                 case RECEPCJONISTA -> new RecepcjonistaPanel();
-                case USER -> new UserPanel();
+                case USER -> new UserPanel(login);
             }
         } else {
             JOptionPane.showMessageDialog(this, "Błędny login lub hasło!");

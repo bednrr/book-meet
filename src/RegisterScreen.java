@@ -130,5 +130,4 @@ public class RegisterScreen extends JFrame {
         Color hoverOverlay = new Color(255, 255, 255, 40);  // bardzo lekka biel
         Color normalOverlay = new Color(0, 0, 0, 0);
     }
-    //asdasdasd
 }
